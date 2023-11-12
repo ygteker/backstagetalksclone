@@ -1,0 +1,70 @@
+html {
+  overflow: hidden;
+  height: 100vh;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 400px;
+}
+
+h3 {
+  text-align: center;
+}
+
+div img {
+  scroll-snap-align: start;
+}
+
+.container {
+  scroll-snap-type: y mandatory;
+  overflow: scroll;
+}
+
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 2rem;
+}
+
+section.content {
+  height: 100vh;
+  padding: 10rem;
+  box-sizing: border-box;
+}
+
+.container > section {
+  scroll-snap-align: start;
+}
+
+section#i1 {
+  background-color: #ff651a;
+}
+
+section#i2 {
+  background-color: #00c1b5;
+}
+
+section#i3 {
+  background-color: #e30512;
+}
+
+section#i4 {
+  background-color: #1d3fbb;
+}
+
+section#i5 {
+  background-color: #ff651a;
+}
+
+section#i6 {
+  background-color: #ffbe00;
+}
+
+section#i7 {
+  background-color: #00c1b5;
+}
