@@ -22,6 +22,7 @@ h3 {
   height: 100vh;
   scroll-snap-points-y: repeat(100vh);
   scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
 }
 
 ::-webkit-scrollbar {
